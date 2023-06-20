@@ -1,0 +1,312 @@
+@prefix ns1: <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/American_InterContinental_University> a ns1:University ;
+    ns1:founded 1970 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "John Kline"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Schaumburg,_Illinois> ;
+    ns1:motto "The Serious U" ;
+    ns1:numberOfStudents "9952"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Baresan_University> a ns1:University ;
+    ns1:founded 2010 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Abdulrazak Adam Jimale"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Mogadishu> ;
+    ns1:motto "Education is a powerful Weapon to change the World." ;
+    ns1:numberOfStudents "2625"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Bay_Path_University> a ns1:University ;
+    ns1:countryLocated <http://dbpedia.org/resource/United_States> ;
+    ns1:founded 1897 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Dr. Sandra J. Doran"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Longmeadow,_Massachusetts> ;
+    ns1:motto "Carpe Diem",
+        "Seize the Day" ;
+    ns1:numberOfStudents "3298"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Baylor_Law_School> a ns1:University ;
+    ns1:founded 18571920 ;
+    ns1:locatedIn <http://dbpedia.org/resource/Waco> ;
+    ns1:numberOfStudents "448"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Baylor_University> a ns1:University ;
+    ns1:founded "1845-02-01"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName <http://dbpedia.org/resource/Linda_Livingstone> ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Waco,_Texas> ;
+    ns1:motto "",
+        "\"For Church, For Texas\"",
+        "Pro Ecclesia, Pro Texana (Latin)" ;
+    ns1:numberOfStudents "20626"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Beal_University> a ns1:University ;
+    ns1:founded 1891 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName <http://dbpedia.org/resource/Sheryl_DeWalt> ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Bangor,_Maine> ;
+    ns1:motto "Sed vitae discimus" ;
+    ns1:numberOfStudents "429"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Beijing_University_of_Technology> a ns1:University ;
+    ns1:founded "1960-10-15"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName <http://dbpedia.org/resource/Nie_Zuoren> ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Beijing> ;
+    ns1:motto "Taking persistence in pursuit as the substance, taking innovation everyday as the way",
+        "不息为体 日新为道" ;
+    ns1:numberOfStudents "20000"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Belhaven_University> a ns1:University ;
+    ns1:founded 1883 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Roger Parrott"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Jackson,_Mississippi> ;
+    ns1:motto "Non Ministari Sed Ministare (Latin)",
+        "Not To Be Served But To Serve" ;
+    ns1:numberOfStudents "4245"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Benguet_State_University> a ns1:University ;
+    ns1:countryLocated <http://dbpedia.org/resource/Philippines> ;
+    ns1:founded 1916 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Felipe S. Comila"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/La_Trinidad,_Benguet> ;
+    ns1:motto "Bringing Service with Utmost Quality and Dedication" ;
+    ns1:numberOfStudents "10000"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Bicol_University> a ns1:University ;
+    ns1:founded "1969-06-21"^^xsd:date,
+        ""@en ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Arnulfo M. Mascariñas"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Legazpi,_Albay> ;
+    ns1:motto "Scholarship, Leadership, Character and Service" ;
+    ns1:numberOfStudents "27224"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Caldwell_University> a ns1:University ;
+    ns1:founded "1939-08-10"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Matthew Whelan"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Caldwell,_New_Jersey> ;
+    ns1:motto "",
+        "Sapientiaet Scientia",
+        "Wisdom and Knowledge" ;
+    ns1:numberOfStudents "2200"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Campbell_University> a ns1:University ;
+    ns1:founded "1887-01-05"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName <http://dbpedia.org/resource/J._Bradley_Creed> ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Buies_Creek,_North_Carolina> ;
+    ns1:motto "\"To the stars through difficulties\"",
+        "Ad astra per aspera (Latin)" ;
+    ns1:numberOfStudents "6185"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Campbell_University_School_of_Education> a ns1:University ;
+    ns1:countryLocated <http://dbpedia.org/resource/United_States> ;
+    ns1:founded 1985 ;
+    ns1:locatedIn <http://dbpedia.org/resource/Buies_Creek> .
+
+<http://dbpedia.org/resource/Campbell_University_School_of_Pharmacy> a ns1:University ;
+    ns1:founded 1985 ;
+    ns1:locatedIn <http://dbpedia.org/resource/Buies_Creek> .
+
+<http://dbpedia.org/resource/Canadian_University_Dubai> a ns1:University ;
+    ns1:countryLocated <http://dbpedia.org/resource/United_Arab_Emirates> ;
+    ns1:founded 2006 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "K. Chelli"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Dubai> ;
+    ns1:motto "",
+        "Your portal to Canadian education" ;
+    ns1:numberOfStudents "1200"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Cape_Breton_University> a ns1:University ;
+    ns1:founded 1951,
+        1968,
+        1974,
+        1982,
+        2005 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName <http://dbpedia.org/resource/David_Dingwall> ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Sydney,_Nova_Scotia> ;
+    ns1:motto ", \"Diligence Will Prevail\"",
+        "Perseverance Will Triumph",
+        "Theid Díchioll Air Thoiseach" ;
+    ns1:numberOfStudents "4478"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Capitol_Technology_University> a ns1:University ;
+    ns1:founded "1927-06-01"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Bradford L. Sims"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/South_Laurel,_Maryland> ;
+    ns1:motto "",
+        "Aut viam inveniam aut faciam",
+        "Either find a way or make one" ;
+    ns1:numberOfStudents "790"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Cardinal_Stritch_University> a ns1:University ;
+    ns1:founded 1937 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Daniel J. Scholz"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Milwaukee,_Wisconsin> ;
+    ns1:motto "",
+        "To value the better things",
+        "Ut probetis potiora" ;
+    ns1:numberOfStudents "1365"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Cooper_Medical_School_of_Rowan_University> a ns1:University ;
+    ns1:founded 2012 .
+
+<http://dbpedia.org/resource/Norman_Adrian_Wiggins_School_of_Law> a ns1:University ;
+    ns1:countryLocated <http://dbpedia.org/resource/United_States> ;
+    ns1:founded 1976,
+        2009 ;
+    ns1:locatedIn <http://dbpedia.org/resource/Raleigh,_North_Carolina> ;
+    ns1:numberOfStudents "497"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Robert_Morris_University_Illinois> a ns1:University ;
+    ns1:founded 1913 ;
+    ns1:locatedIn <http://dbpedia.org/resource/Chicago> ;
+    ns1:numberOfStudents "1934"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Rogers_State_University> a ns1:University ;
+    ns1:founded 1909 ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Larry Rice"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Claremore,_Oklahoma> ;
+    ns1:motto "",
+        "Tradition Innovation Excellence" ;
+    ns1:numberOfStudents "4300"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Roosevelt_University> a ns1:University ;
+    ns1:founded "1945-04-24"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Ali Malekzadeh"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Chicago> ;
+    ns1:motto "Dedicated to the enlightenment of the human spirit" ;
+    ns1:numberOfStudents "6391"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Rowan_University> a ns1:University ;
+    ns1:founded "1923-09-24"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Ali A. Houshmand"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Glassboro,_New_Jersey> ;
+    ns1:motto "",
+        "\"Education, hope of the world\"",
+        "Eruditio spes mundi (Latin)" ;
+    ns1:numberOfStudents "23000"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Sam_Houston_State_University> a ns1:University ;
+    ns1:founded "1879-04-21"^^xsd:date ;
+    ns1:hasPresident [ a ns1:president ;
+            ns1:presidentName "Alisa White"@en ] ;
+    ns1:locatedIn <http://dbpedia.org/resource/Huntsville,_Texas> ;
+    ns1:motto "\"The measure of a Life is its Service\"" ;
+    ns1:numberOfStudents "21679"^^xsd:nonNegativeInteger .
+
+<http://dbpedia.org/resource/Sam_Houston_State_University_College_of_Osteopathic_Medicine> a ns1:University ;
+    ns1:founded 2019 ;
+    ns1:locatedIn <http://dbpedia.org/resource/Conroe,_Texas> .
+
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation> a owl:Ontology .
+
+ns1:countryLocated a owl:ObjectProperty ;
+    rdfs:domain ns1:University ;
+    rdfs:range ns1:country .
+
+ns1:founded a owl:DatatypeProperty ;
+    rdfs:domain ns1:University ;
+    rdfs:range xsd:integer .
+
+ns1:hasPresident a owl:ObjectProperty ;
+    rdfs:domain ns1:University ;
+    rdfs:range ns1:president .
+
+ns1:locatedIn a owl:ObjectProperty ;
+    rdfs:domain ns1:University ;
+    rdfs:range ns1:city .
+
+ns1:motto a owl:DatatypeProperty ;
+    rdfs:domain ns1:University ;
+    rdfs:range xsd:string .
+
+ns1:numberOfStudents a owl:DatatypeProperty ;
+    rdfs:domain ns1:University ;
+    rdfs:range xsd:integer .
+
+<http://dbpedia.org/resource/Bangor,_Maine> a ns1:city .
+
+<http://dbpedia.org/resource/Beijing> a ns1:city .
+
+<http://dbpedia.org/resource/Buies_Creek,_North_Carolina> a ns1:city .
+
+<http://dbpedia.org/resource/Caldwell,_New_Jersey> a ns1:city .
+
+<http://dbpedia.org/resource/Claremore,_Oklahoma> a ns1:city .
+
+<http://dbpedia.org/resource/Conroe,_Texas> a ns1:city .
+
+<http://dbpedia.org/resource/Dubai> a ns1:city .
+
+<http://dbpedia.org/resource/Glassboro,_New_Jersey> a ns1:city .
+
+<http://dbpedia.org/resource/Huntsville,_Texas> a ns1:city .
+
+<http://dbpedia.org/resource/Jackson,_Mississippi> a ns1:city .
+
+<http://dbpedia.org/resource/La_Trinidad,_Benguet> a ns1:city .
+
+<http://dbpedia.org/resource/Legazpi,_Albay> a ns1:city .
+
+<http://dbpedia.org/resource/Longmeadow,_Massachusetts> a ns1:city .
+
+<http://dbpedia.org/resource/Milwaukee,_Wisconsin> a ns1:city .
+
+<http://dbpedia.org/resource/Mogadishu> a ns1:city .
+
+<http://dbpedia.org/resource/Philippines> a ns1:country .
+
+<http://dbpedia.org/resource/Raleigh,_North_Carolina> a ns1:city .
+
+<http://dbpedia.org/resource/Schaumburg,_Illinois> a ns1:city .
+
+<http://dbpedia.org/resource/South_Laurel,_Maryland> a ns1:city .
+
+<http://dbpedia.org/resource/Sydney,_Nova_Scotia> a ns1:city .
+
+<http://dbpedia.org/resource/United_Arab_Emirates> a ns1:country .
+
+<http://dbpedia.org/resource/Waco> a ns1:city .
+
+<http://dbpedia.org/resource/Waco,_Texas> a ns1:city .
+
+ns1:Education a owl:Class .
+
+ns1:Person a owl:Class .
+
+<http://dbpedia.org/resource/Buies_Creek> a ns1:city .
+
+<http://dbpedia.org/resource/Chicago> a ns1:city .
+
+ns1:Location a owl:Class .
+
+<http://dbpedia.org/resource/United_States> a ns1:country .
+
+ns1:country a owl:Class ;
+    rdfs:subClassOf ns1:Location .
+
+ns1:president a owl:Class ;
+    rdfs:subClassOf ns1:Person .
+
+ns1:city a owl:Class ;
+    rdfs:subClassOf ns1:Location .
+
+ns1:University a owl:Class ;
+    rdfs:subClassOf ns1:Education .
+

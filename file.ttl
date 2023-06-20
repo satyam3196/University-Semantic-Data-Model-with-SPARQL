@@ -1,0 +1,91 @@
+@prefix : <http://www.semanticweb.org/user/ontologies/2023/4/untitled-ontology-43/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/user/ontologies/2023/4/untitled-ontology-43/> .
+
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/countryLocated
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/countryLocated> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/country> .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/hasPresident
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/hasPresident> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University> ;
+                                                                                  rdfs:range <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/president> .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/locatedIn
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/locatedIn> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University> ;
+                                                                               rdfs:range <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/city> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/founded
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/founded> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University> ;
+                                                                             rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/motto
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/motto> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University> ;
+                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/numberOfStudents
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/numberOfStudents> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University> ;
+                                                                                      rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Education
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Education> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Location
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Location> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Person
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Person> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/University> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Education> .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/city
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/city> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Location> .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/country
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/country> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Location> .
+
+
+###  http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/president
+<http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/president> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/satyamsharma/ontologies/HigherEducation/Person> .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
